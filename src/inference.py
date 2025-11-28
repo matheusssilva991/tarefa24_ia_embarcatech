@@ -107,7 +107,9 @@ if __name__ == "__main__":
     print("="*60)
 
     image_paths = [f"{base_image_path}bateria.jpeg", f"{base_image_path}mouse.jpeg",
-                   f"{base_image_path}monitor.jpeg"]  # Adicione mais imagens aqui
+                   f"{base_image_path}monitor.jpeg", f"{base_image_path}mouse2.jpeg",
+                   f"{base_image_path}mouse3.jpeg", f"{base_image_path}teclado.jpeg",
+                   f"{base_image_path}teclado2.jpeg"]  # Adicione mais imagens aqui
     results = classifier.predict_batch(image_paths)
 
     for result in results:
